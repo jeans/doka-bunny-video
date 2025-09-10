@@ -1,0 +1,9 @@
+.doka-bunny-browser { padding: 12px; }
+.doka-bunny-toolbar { margin-bottom: 12px; }
+.doka-bunny-search { width: 100%; max-width: 360px; }
+.doka-bunny-grid { display: grid; grid-gap: 12px; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+.doka-bunny-item { border: 1px solid #dcdcde; background: #fff; cursor: pointer; display: flex; flex-direction: column; }
+.doka-bunny-item .thumb { background-size: cover; background-position: center; padding-top: 56.25%; }
+.doka-bunny-item .title { padding: 8px; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.doka-bunny-footer { margin-top: 12px; display: flex; align-items: center; gap: 8px; }
+.doka-bunny-empty { color: #646970; }
